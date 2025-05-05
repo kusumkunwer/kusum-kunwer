@@ -1,0 +1,134 @@
+Test Cases For Calculator Application
+
+```
+Test Case ID: TC-01
+Test Description: Verifies that the calculator correctly adds two positive numbers
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "2".
+Press "+".
+Press "3".
+Press "="
+Expected Result: The result should display "5"
+
+Test Case ID: TC-02
+Test Description: Verify if the calculator subtracts two numbers correctly.
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "8".
+Press "-".
+Press 2".
+Press "=".
+Expected Result: The result should display "6"
+
+Test Case ID: TC-03
+Test Description: Verify the calculator's response when dividing by zero
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "5".
+Press "/".
+Press "0"
+Press "=".
+Expected Result: The result should display "infinity"
+
+Test Case ID: TC-04
+Test Description: Verify the multiplication of two numbers.
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "2".
+Press "X".
+Press "3"
+Press "=".
+Expected Result: The result should display "6"
+
+Test Case ID: TC-05
+Test Description: Check decimal addition.
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press 1
+Press "."
+Press 5
+Press '+'
+Press 2
+Press .
+Press 3
+Press  ='
+Expected Result: The result should display "3.8"
+
+Test Case ID: TC-06
+Test Description: The calculator should support the BODMAS rule
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "5".
+Press "+".
+Press "2"
+Press"*"
+Press "3".
+Press"="
+Expected Result: The result should display "11"
+
+Test Case ID: TC-07
+Test Description: Press operator first
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "+".
+Press "5"
+Press "="
+Expected Result: The result should display "5"
+
+Test Case ID: TC-08
+Test Description: Very large number calculation
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "777777777".
+Press "+"
+Press "777777777".
+Press "="
+Expected Result: The result should display "1555555554"
+
+Test Case ID: TC-09
+Test Description: Press " " without input
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "=".
+Expected Result: The result should display "0"
+
+Test Case ID: TC-10
+Test Description: Test multiple operators including %
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "1".
+Press "+"
+Press "2".
+Press"-"
+Press "3"
+Press"*"
+Press "6".
+Press "/".
+Press "2".
+Press "%".
+Press"="
+Expected Result: The result should display "2.91"
+
+Test Case ID: TC-11
+Test Description: Invalid expression ending with operator
+Preconditions: Calculator is open
+Test Steps:
+Open the calculator application.
+Press "5".
+Press "%".
+Press "6".
+Press "/".
+Press"="
+Expected Result: The result should display "Error"
+```
